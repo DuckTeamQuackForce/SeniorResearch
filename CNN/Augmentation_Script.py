@@ -1,16 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-########################################################################
-######################### Logic ########################################
-    # 4000 images 
-    # 3000 training / 3 and then by 5
-    # 1000 test images / 3 and then further divided by 5
-    # need 75 to 25 ratio 
-########################################################################    
 import Augmentor
 pokemon = ["\\Mudkip", "\\Eevee", "\\Pikachu"]
 
