@@ -16,7 +16,7 @@ pokemon = ["\\Mudkip", "\\Eevee", "\\Pikachu"]
 
 for pok in pokemon:
     p = Augmentor.Pipeline(
-            "C:\\Users\\sawye\\OneDrive - Eastern Connecticut State University\\Senior Research\\Test_set" + pok
+            "Insert_Folder_Path_For_Test_set" + pok
             )
     ######################### Rotate  ######################################
     p.rotate(probability=1.0, max_left_rotation=5, max_right_rotation=10)
